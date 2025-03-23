@@ -1,13 +1,12 @@
 // Initialize Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyAC3XQE2o9o22WSfGTl1tpbTcN0JyUyAkc",
-  authDomain: "arabasiafamousters.firebaseapp.com",
-  databaseURL: "https://arabasiafamousters-default-rtdb.firebaseio.com",
-  projectId: "arabasiafamousters",
-  storageBucket: "arabasiafamousters.firebasestorage.app",
-  messagingSenderId: "644937361493",
-  appId: "1:644937361493:web:66a67781e0a9e61c940cdc",
-  measurementId: "G-NQ1414E2YJ"
+  apiKey: "AIzaSyCH1e1YnuaiVJ92HKACEHfEvioxlbr3rek",
+  authDomain: "votingarab.firebaseapp.com",
+  databaseURL: "https://votingarab-default-rtdb.firebaseio.com",
+  projectId: "votingarab",
+  storageBucket: "votingarab.firebasestorage.app",
+  messagingSenderId: "32790732397",
+  appId: "1:32790732397:web:8c3bf1cb7d4d62e8dde964"
 };
 firebase.initializeApp(firebaseConfig);
 const appCheck = firebase.appCheck();
